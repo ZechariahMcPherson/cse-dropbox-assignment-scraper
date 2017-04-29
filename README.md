@@ -3,6 +3,6 @@
 Creator: G. Zechariah McPherson
 
 Technologies: 
-* [Python 3.6](https://docs.python.org/3/){:target="_blank"}
-* [Scrapy 1.3](https://docs.scrapy.org/en/latest/){:target="_blank"}
-* [Atom](https://atom.io/){:target="_blank"}
+* <a href="https://docs.python.org/3/" target="Python">Python 3.6</a>
+* <a href="https://docs.scrapy.org/en/latest/" target="Scrapy"> Scrapy 1.3</a>
+* <a href="https://atom.io/" target="Atom">Atom</a>
