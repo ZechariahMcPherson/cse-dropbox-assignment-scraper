@@ -15,6 +15,21 @@ SPIDER_MODULES = ['scraper.spiders']
 NEWSPIDER_MODULE = 'scraper.spiders'
 
 
+
+#if log.txt exits delete it
+import os
+import sys
+if os.path.isfile("log.txt"):
+    os.remove("log.txt")
+
+#redirects logging to log.txt
+LOG_STDOUT = True
+LOG_FILE = 'log.txt'
+
+#only scrapy's warning errors will be sent to log.txt
+LOG_LEVEL = 'INFO'
+
+
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'scraper (+http://www.yourdomain.com)'
 
