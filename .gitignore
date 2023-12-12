@@ -1,1 +1,12 @@
+#mac specific file
 .DS_Store
+
+#folder that stores bytecode
+__pycache__
+
+#any python bytecode files
+.pyc
+.pyo
+
+#ignore log file
+log.txt
